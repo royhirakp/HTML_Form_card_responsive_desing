@@ -1,0 +1,247 @@
+body {
+  font-family: Open Sans;
+  margin: 0;
+  background-color: #ff7978;
+  height: auto;
+}
+.text_container,
+.from_container {
+  width: 49%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid; */
+  box-sizing: border-box;
+}
+.text_container {
+  float: left;
+}
+
+.from_container {
+  float: right;
+  justify-content: center;
+}
+
+.text_container h1 {
+  font-size: 40px;
+  color: #ffffff;
+  margin: 0 0 0 auto;
+  width: 70%;
+  /* border: 1px solid; */
+  text-align: end;
+}
+
+.text_container p {
+  /* border: 1px solid; */
+  text-align: end;
+  max-width: 500px;
+  width: 70%;
+  margin: 0 0 0 auto;
+
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-size: larger;
+}
+
+.addContainer {
+  /* border: 1px solid; */
+  font-size: large;
+  padding: 0 2%;
+  box-sizing: border-box;
+  width: 80%;
+  max-width: 600px;
+  height: 60px;
+  background-color: #5d55a1;
+  background: #474276;
+  box-shadow: 0px 3px 6px #34333329;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addContainer ul {
+  padding: 0;
+}
+
+.addContainer ul li {
+  list-style: none;
+  display: inline;
+  color: #ffffff;
+}
+
+form {
+  width: 80%;
+  /* border: 1px solid; */
+  max-width: 600px;
+  padding: 20px 0;
+  background: #ffffff;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* flex-direction:column; */
+  /* align-items:flex-end; */
+}
+
+input {
+  display: block;
+  width: 72%;
+  height: 2.3rem;
+  font-size: x-large;
+  color: #7d6161;
+  padding-left: 7%;
+  border: 2px solid #c4c4c4;
+  border-radius: 3px;
+  margin: 2% 3%;
+}
+button {
+  width: 80%;
+  margin: 15px 0;
+  height: 40px;
+  font-size: larger;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #6cd0a3;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.tramsAndConditionContainer {
+  font-size: small;
+  color: #a8a8a8;
+  text-align: center;
+  font-size: 13px;
+  margin: 0 3%;
+}
+
+.tramsAndConditionContainer a {
+  color: #e56d6d;
+}
+
+@media screen and (max-width: 800px) {
+  .text_container {
+    padding: 2rem 0;
+  }
+
+  .from_container {
+    justify-content: center;
+    align-items: center;
+    /* margin: 2rem 0; */
+    margin-bottom: 5rem;
+  }
+  .text_container,
+  .from_container {
+    width: 100%;
+    height: auto;
+  }
+  .text_container h1 {
+    font-size: 30px;
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .text_container p {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: medium;
+  }
+  .addContainer {
+    width: 90%;
+  }
+  .tramsAndConditionContainer {
+    font-size: 11px;
+  }
+  form {
+    width: 90%;
+  }
+  input {
+    width: 80%;
+    height: 2.1rem;
+    font-size: large;
+    margin: 1% 2%;
+  }
+  button {
+    width: 88%;
+  }
+
+  button {
+    font-size: medium;
+  }
+  .addContainer {
+    font-size: medium;
+  }
+}
+
+/* @media screen and (max-width: 800px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .text,
+  .from {
+    width: 100%;
+    height: auto;
+  }
+  .text {
+    margin-top: 60px;
+    margin-bottom: 27px;
+  }
+  .text > h1 {
+    text-align: center;
+    width: 90%;
+    font: normal normal bold 25px/30px Montserrat;
+    letter-spacing: -1.6px;
+    color: #ffffff;
+    opacity: 1;
+  }
+
+  .text > p {
+    text-align: center;
+    width: 95%;
+    font: normal normal 600 12px/20px Open Sans;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+  .from {
+    align-items: center;
+  }
+  .from > .free_offer {
+    width: 80%;
+    height: auto;
+    padding: 3%;
+  }
+  .from > .free_offer > ul > li {
+    display: block;
+  }
+  .from > form {
+    width: 86%;
+    margin-bottom: 8%;
+  }
+  .from > form > input {
+    height: 40px;
+    font: normal normal normal 12px/28px Open Sans;
+  }
+  .from > form > button {
+    font: normal normal 600 12px/11px Open Sans;
+    letter-spacing: 1.2px;
+    color: #ffffff;
+    height: 33px;
+  }
+
+  .from > form > .a_tag_text {
+    width: 70%;
+    font: normal normal normal 12px/18px Open Sans;
+    letter-spacing: 0px;
+    color: #a8a8a8;
+    text-align: center;
+    margin-top: 2%;
+  }
+} */
